@@ -1,0 +1,32 @@
+using System;
+
+namespace prime_number
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("insert first number");
+            int secret = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("insert ssecond number");
+            int guess = Convert.ToInt32(Console.ReadLine());
+
+            if(guess < secret)
+            {
+                Console.WriteLine("to small");
+            }
+           else if (guess > secret)
+            {
+                Console.WriteLine("to big");
+            }
+            else
+            {
+                Console.WriteLine("bingo!!!");
+            }
+
+
+        }
+    }
+}
