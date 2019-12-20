@@ -1,0 +1,25 @@
+using System;
+
+namespace ConsoleApp3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //HW_leasson_3_Quation_3
+            int x = 0;
+            int sum = 0;
+
+            while (x >= 0)
+            {
+                sum += x;
+                Console.WriteLine("insert number");
+                x = Convert.ToInt32(Console.ReadLine());
+                
+
+            }
+                Console.WriteLine(sum);
+            
+        }
+    }
+}
