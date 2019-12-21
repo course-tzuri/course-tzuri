@@ -1,0 +1,24 @@
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            int a = 0;
+
+            Console.WriteLine("insert number");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            if (a >= 0 && a <= 9)
+            {
+                Console.WriteLine("the number is 1 degeet");
+            }
+            else if (a <= 99)
+
+                Console.WriteLine("the number is 2 degeet");
+            else if (a <= 999)
+                Console.WriteLine("the number is 3 degeet");
+            else
+                Console.WriteLine("the number is bigger then 3 degeet");
