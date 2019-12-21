@@ -1,0 +1,23 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 0;
+            int b = 0;
+            int c = 0;
+
+            Console.WriteLine("inter first number");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("inter second number");
+            b = Convert.ToInt32(Console.ReadLine());
+            if (b == 0)
+                Console.WriteLine("cant divide in zero");
+            
+            
+            else
+                c = Convert.ToInt32(a / b);
+            Console.WriteLine("the answer is: {0}", c);
