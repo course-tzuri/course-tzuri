@@ -1,0 +1,22 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 0;
+            int counter = 0;
+            
+            Console.WriteLine("insert number");
+            x = Convert.ToInt32(Console.ReadLine());
+
+            do
+            {
+                x = (x - 1);
+                Console.WriteLine (x);
+                counter++;
+            }
+            while (x != 0);
+            Console.Write(counter);
