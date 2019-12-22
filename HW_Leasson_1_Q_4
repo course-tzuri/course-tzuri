@@ -1,0 +1,28 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int a = 10;
+            int b = 10;
+            
+
+            Console.WriteLine("insert number");
+            int x = Convert.ToInt32(Console.ReadLine());
+
+            a = (x%a);
+            b = (x/b);
+
+            if (a>b)
+            {
+                Console.WriteLine("asarot gadol");
+
+            }
+            else
+            {
+                Console.WriteLine("ahadot gadol");
+            }
