@@ -1,0 +1,26 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 0;
+            int b = 0;
+            int sum = 0;
+            int counter = 0;
+            Console.WriteLine("insert first number");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("insert second number");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            while (b > counter)
+            {
+                counter++;
+                sum = Convert.ToInt32(sum + a);
+                
+            }
+
+            Console.WriteLine(sum);
