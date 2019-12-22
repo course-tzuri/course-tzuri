@@ -1,0 +1,39 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int luckynum = 10;
+            int x = 0;
+            int counter = 0;
+            Console.WriteLine("insert number");
+        
+            do
+            {
+                x = Convert.ToInt32(Console.ReadLine());
+                counter++;
+                if (x < luckynum)
+                {
+                    Console.WriteLine("insert low number");
+                }
+                else
+                {
+                    Console.WriteLine("insert high number");
+                }
+
+            } while (x != luckynum && counter < 3);
+
+
+            if (x == luckynum)
+            {
+                Console.WriteLine("bingo");
+            }
+            else
+            {
+                Console.WriteLine("bye bye");
+            }
+            
