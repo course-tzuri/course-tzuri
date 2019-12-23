@@ -1,0 +1,30 @@
+using System;
+
+namespace prime_number
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //pargragh A
+            int i = 0;
+            //for ( i = 0; i <= 2000; i+=2)
+            //{
+            //    Console.Write("{0} ", i);
+            //}
+
+            //pargragh B
+            //for (i = 0; i <= 100; i += 2)
+            //{
+            //    Console.Write("{0} ", i);
+            //}
+            //pargragh c
+            for (i = 0; i <= 100; i += 10)
+            {
+                Console.Write("{0} ", i);
+            }
+
+
+        }
+    }
+}
