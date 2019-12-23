@@ -1,0 +1,61 @@
+using System;
+
+namespace prime_number
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int guess = 0;
+            int secret = 0;
+            Console.WriteLine("insert secret number");
+            secret = Convert.ToInt32(Console.ReadLine());
+            do
+            {
+              
+            Console.WriteLine("insert number guess number");
+            guess = Convert.ToInt32(Console.ReadLine());
+
+           
+             
+                if (guess < secret)
+                {
+                    Console.WriteLine("too small");
+                }
+                else if (guess > secret)
+                {
+                    Console.WriteLine("too big");
+                }
+                else
+                {
+                    Console.WriteLine("bingo");
+                }
+            }
+            while (guess != secret);
+        }
+    }
+}using System;
+
+namespace prime_number
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 1;
+            int b = 2;
+            int x = 0;
+            Console.WriteLine("insert number");
+            x = Convert.ToInt32(Console.ReadLine());
+            do
+            {
+
+                a = a * b;
+                b++;
+                
+            } while (b<=x);
+            Console.WriteLine("atzeret: {0} = {1}",x, a);
+        }
+    }
+}
