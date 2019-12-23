@@ -1,0 +1,41 @@
+using System;
+
+namespace prime_number
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.Write("Enter cup size (big / medium / small): ");
+            string cupSize = Console.ReadLine();
+
+            int price = 0;
+            switch (cupSize)
+            {
+                case "big":
+                    price = 15;
+                    break;
+
+                case "medium":
+                    price = 13;
+                    break;
+
+                case "small":
+                    price = 9;
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid cup size!");
+                    break;
+            }
+
+            if (price != 0)
+            {
+                Console.WriteLine("The coffee price is " + price);
+            }
+
+
+        }
+    }
+}
