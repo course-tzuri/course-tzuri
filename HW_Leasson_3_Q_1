@@ -1,0 +1,27 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 0;
+            int b = 0;
+
+            Console.WriteLine("insert a");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("insert a");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            if (a%b==0)
+            {
+                a = (a % b);
+                Console.Write("a divide with no sherit: {0}", a);
+            }
+            else
+            {
+                a = (a % b);
+                Console.Write("a is not divide with no sherit: {0}", a);
+            }
