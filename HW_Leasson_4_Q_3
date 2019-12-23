@@ -1,0 +1,34 @@
+using System;
+
+namespace prime_number
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           
+            int x = 745;
+            int card200 = 0;
+            int card100 = 0;
+            int card20 = 0;
+            int coin5 = 0;
+
+            card200 = Convert.ToInt32(745 / 200);
+            Console.WriteLine("200: {0}", card200);
+            x = 745 % 200;
+            card100 = Convert.ToInt32(x/ 100);
+            Console.WriteLine("100: {0}", card100);
+            x = x % 100;
+            card20 =  (x/20)  ;
+            Console.WriteLine("20: {0}", card20);
+            x = x % 20;
+            coin5 = (x / 5);
+            Console.WriteLine("5: {0}", coin5);
+
+
+
+
+
+        }
+    }
+}
