@@ -1,0 +1,30 @@
+using System;
+
+namespace prime_number
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int num = 0;
+            int counter = 0;
+
+
+            do
+            {
+                Console.WriteLine("insert number between 1-1000");
+                num = Convert.ToInt32(Console.ReadLine());
+                if (num >= 1 && num <= 1000)
+                {
+                    counter++;
+                }
+            }
+            while (counter <= 2);
+
+
+
+
+        }
+    }
+}
