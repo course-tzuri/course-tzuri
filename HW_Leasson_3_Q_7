@@ -1,0 +1,29 @@
+using System;
+
+namespace prime_number
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 0;
+            int b = 0;
+            int counter = 0;
+            int sum = 0;
+
+            Console.WriteLine("insert a");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("insert b");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            do
+            {
+                sum = sum + a;
+               
+                counter++;
+            } while (counter<b);
+            Console.WriteLine("tha answer is:{0} ", sum);
+        }
+    }
+}
