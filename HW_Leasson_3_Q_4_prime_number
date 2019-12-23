@@ -1,0 +1,38 @@
+using System;
+
+namespace prime_number
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            bool flag1 = true;
+           
+           // int x = 0;
+
+            for (int j = 2; j <= 100; j++)
+            {
+                flag1 =true;
+                int i = 2;
+                while (i < j  && flag1 == true)
+                {
+                    if (j % i == 0)
+                    {
+                        flag1 = false;
+                    }
+                    i++;
+                }
+                if (flag1 == true)
+                {
+                    //Console.Write($"{j} ");
+                    // Console.Write(j+" ");
+                    Console.Write("{0} ", j);
+
+                }
+
+
+            }
+        }
+    }
+}
