@@ -1,0 +1,16 @@
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 0;
+
+            Console.WriteLine("insert a");
+            x = Convert.ToInt32(Console.ReadLine());
+         
+            while (x>=0)
+            {
+                Console.WriteLine("the number is positive, insert new number");
+                 x = Convert.ToInt32(Console.ReadLine());
+            }
+            Console.WriteLine("good number");
