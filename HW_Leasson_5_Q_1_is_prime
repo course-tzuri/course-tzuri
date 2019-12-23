@@ -1,0 +1,39 @@
+using System;
+
+namespace prime_number
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            int x = 0;
+
+            int counter = 0;
+            do
+            {
+                counter = 0;
+                Console.WriteLine("insert number");
+                x = Convert.ToInt32(Console.ReadLine());
+
+                for (int i = 2; i < x; i++)
+                {
+                    if (x % i == 0)
+                    {
+                        counter++;
+                    }
+
+
+                }
+                if (counter == 0)
+                {
+                    Console.WriteLine("is prime");
+                }
+                else
+                    Console.WriteLine("not prime");
+            }
+            while (counter != 0);
+        }
+    }
+}
