@@ -1,0 +1,21 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 0;
+            int b = 0;
+           
+
+            Console.WriteLine("insert a");
+            a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("insert b");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            int sum = a + b;
+            double avg = sum / 2.0;
+            Console.WriteLine("the avarage is: {0}", avg);
