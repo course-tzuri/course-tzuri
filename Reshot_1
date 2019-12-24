@@ -9,7 +9,8 @@ namespace prime_number
 
             int num = 0;
             int counter = 0;
-
+            int num1 = 0;
+         
 
             do
             {
@@ -17,12 +18,17 @@ namespace prime_number
                 num = Convert.ToInt32(Console.ReadLine());
                 if (num >= 1 && num <= 1000)
                 {
-                    counter++;
+                    counter++;                    
+                }
+                if(num>num1 && num<=1000 && num>=1 )
+                {
+                    num1 = num;
                 }
             }
             while (counter <= 2);
-
-
+            Console.WriteLine(num1);
+            
+           
 
 
         }
