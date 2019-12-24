@@ -7,7 +7,6 @@ namespace prime_number
         static void Main(string[] args)
         {
             int temperature = 0;
-            //int weather = 0;
             Console.WriteLine("enter temperature: -5, 0, 15, 40: ");
             temperature = Convert.ToInt32(Console.ReadLine());
 
@@ -30,3 +29,6 @@ namespace prime_number
                     Console.WriteLine("invalid temperature");
                     break;
             }
+        }
+    }
+}
