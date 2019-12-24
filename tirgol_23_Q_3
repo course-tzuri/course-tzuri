@@ -1,0 +1,126 @@
+using System;
+
+namespace prime_number
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int type = 0;
+            int priceless = 0;
+            int price = 0;
+            int camot = 0;
+
+            Console.WriteLine("chosse type: 1,2,3,4,5,6,7,8");
+            type = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("chosse camot");
+            camot= Convert.ToInt32(Console.ReadLine());
+            price = 100;
+            switch(type)
+            {
+                case 1:
+                    if (camot >= 35)
+                    {
+                        price = 100 - 5;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    else
+                    {
+                        price = 100;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    break;
+                case 2:
+                    if (camot >= 35)
+                    {
+                        price = 100 - 10;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    else
+                    {
+                        price = 100;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    break;
+                case 3:
+                    if (camot >= 35)
+                    {
+                        price = 100 - 20;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    else
+                    {
+                        price = 100;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    break;
+                case 4:
+                    if (camot >= 35)
+                    {
+                        price = 100 - 5;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    else
+                    {
+                        price = 100;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    break;
+                case 5:
+                    if (camot >= 35)
+                    {
+                        price = 100 - 10;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    else
+                    {
+                        price = 100;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    break;
+                case 6:
+                    if (camot >= 35)
+                    {
+                        price = 100 - 5;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    else
+                    {
+                        price = 100;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    break;
+                case 7:
+                    if (camot >= 35)
+                    {
+                        price = 100 - 20;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    else
+                    {
+                        price = 100;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    break;
+                case 8:
+                    if (camot >= 35)
+                    {
+                        price = 100 - 20;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    else
+                    {
+                        price = 100;
+                        Console.WriteLine("the price is: {0} ", price);
+                    }
+                    break;
+               
+                default:
+                    Console.WriteLine(  "invalid type");
+                    break;
+            }
+            
+        }
+    }
+}
